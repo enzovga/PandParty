@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #d8d8d8;
+}
+
+.url_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.url_bar .biger_part {
+  width: 93%;
+  background-color: white;
+  height: 1.5rem;
+}
+
+.url_bar .biger_part p {
+  opacity: 0.5;
+}
+
+.url_bar .small_part {
+  width: 4%;
+  background-color: white;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.url_bar .icon {
+  color: white;
+  font-size: 2rem;
+  margin-top: -0.6rem;
+  margin-left: 0.5rem;
+}
+
+.video_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.8rem;
+  height: 724px;
+}
+
+.video_section .video {
+  width: 70%;
+  background-color: #d8d8d8;
+  border-radius: 1rem;
+  max-height: 100%;
+  margin: 0 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  position: relative; 
+}
+
+.video_section .video #remote-video{
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: lightgray;
+  position: absolute;
+}
+
+.video_section .video .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.video_section .video .circle {
+  position: absolute;
+  width: 60px;
+  margin-left: 0.5rem;
+  height: 60px;
+  border-radius: 60px;
+  background-color: #92d0f0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+  bottom: 1rem;
+  left: 60%;
+  text-transform: capitalize;
+  text-shadow: 1px 1px black;
+}
+
+.video_section .video .circle-2 {
+  left: 83%;
+}
+
+.video_section .video .circle-3 {
+  left: 90%;
+}
+
+.side_section {
+  width: 30%;
+}
+
+.side_section .lucas {
+  max-width: 96%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: white;
+  height: auto;
+  text-shadow: 1px 1px black;
+  background-color: #219ddb ;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side_section .lucas .box {
+  height: 3rem;
+  width: 3rem;
+  background-color: white;
+}
+
+.side_section .lucas .side_box {
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+}
+
+.side_section .lucas .side_box p {
+  margin-bottom: 0.3rem;
+}
+
+.side_section .lucas .side_box .straight_box {
+  width: 336px;
+  background-color: white;
+  height: 0.6rem;
+}
+
+.side_section .second_box {
+  max-width: 96%;
+  background-color: #d8d8d8;
+  height: 317px;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.side_section .second_box #local-video{
+  top: 60;
+  width: 300;
+  object-fit: cover;
+  height: 150;
+  z-index: 1;
+  right: 15;
+  background-color: #d8d8d8;
+  position: absolute;
+  border-radius: 1rem;
+}
+
+.side_section .thirde_box {
+  max-width: 96%;
+  background-color: #d8d8d8;
+  height: 317px;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.side_section .fourth_box {
+  max-width: 96%;
+  background-color: white;
+  height: 169px;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  background-color: #d8d8d8;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.side_section .fourth_box .fourh_box--second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  height: 2.3rem;
+}
+
+.side_section .fourth_box .fourh_box--second p:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+}
+
+.side_section .fourth_box .fourh_box--second p:last-child {
+  color: #219ddb;
+  font-size: 2rem;
+}
+
+.bottom_part {
+  width: 70%;
+  padding: 0.5rem 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom_part .straight_bar {
+  background-color: #219ddb;
+  width: 70%;
+  height: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 1rem;
+  text-shadow: 2px 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding: 0.2rem 1rem;
+}
+
+.bottom_part .middle {
+  width: 0.1rem;
+  height: 165px;
+  background-color: black;
+  margin-left: 1rem;
+}
+
+.bottom_part .participentes {
+  width: 30%;
+  color: white;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: -0.2rem;
+}
+
+.bottom_part h2 {
+  background-color:#219ddb;
+  padding: 0.5rem;
+  color: black;
+  width: 80%;
+  text-shadow: 2px 2px black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin-left: 0 auto;
+  border-radius: 1rem;
+}
+
+.bottom_part .content {
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#img_circular {
+  border-radius: 200px
+}
+/*# sourceMappingURL=main.css.map */
