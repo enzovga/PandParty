@@ -32,7 +32,7 @@ Inicie o XAMPP e inicie o módulo "Apache", após isso se conecte a URL http://l
 ### Ferramentas Utilizadas
 - HTML
 - CSS
-- JS
+- Javascript
 - PHP
 - MySQL
 - Bootstrap
