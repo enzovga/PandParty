@@ -35,4 +35,5 @@ Inicie o XAMPP e inicie o módulo "Apache", após isso se conecte a URL http://l
 - JS
 - PHP
 - MySQL
+- Bootstrap
 - [PeerJS](https://peerjs.com/)
